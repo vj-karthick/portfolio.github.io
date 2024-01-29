@@ -856,7 +856,7 @@ footer a{
 }
 
 
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 1070px){
 
     .navigation{
         position: fixed;
@@ -926,6 +926,13 @@ footer a{
         height: 40px;
         cursor: pointer;
         display: block;
+    }
+
+    .theme-btn {
+    position: fixed;
+    z-index: 999; 
+    top: 80px;
+    right: 9px;
     }
 
     .home .home-container .info{
